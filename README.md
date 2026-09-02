@@ -36,7 +36,7 @@ Play's "Verify your organisation's website" is a **domain-ownership check via
 Google Search Console** — it does NOT inspect the page content. Steps:
 
 1. Go to **search.google.com/search-console**, signed in with the SAME Google
-   account as your Play Console (`dev@eongerra.com`).
+   account as your Play Console (`sy.erikchow@eongerra.com`).
 2. Add a **Domain** property for `eongerra.com`.
 3. Search Console gives you a **DNS TXT record** (`google-site-verification=…`).
    Add it at your domain's DNS host (Cloudflare / GoDaddy / Namecheap / wherever
