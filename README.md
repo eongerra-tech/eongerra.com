@@ -25,7 +25,7 @@ Once live, your URLs are:
 - Privacy hub: `https://eongerra.com/privacy.html`
 - **AI Doomsday privacy (paste into Play Console for AI Doomsday):**
   `https://eongerra.com/privacy/ai-doomsday.html`
-- Kiraqo privacy (later): `https://eongerra.com/privacy/kiraqo.html`
+- Invois privacy (later): `https://eongerra.com/privacy/invois.html`
 
 Each app points Play Console at its OWN policy URL — the apps handle data
 differently, so they can't share one "collects nothing" policy.

@@ -1,0 +1,8 @@
+<!-- Invois brand mark — same geometry as the app's icon (invoisapp: frontend/public/brand-mark.svg). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" rx="225" fill="#635BFF"/>
+  <rect x="328" y="312" width="80" height="208" rx="40" fill="#fff"/>
+  <rect x="472" y="232" width="80" height="368" rx="40" fill="#fff"/>
+  <rect x="616" y="280" width="80" height="272" rx="40" fill="#fff"/>
+  <rect x="248" y="712" width="528" height="80" rx="40" fill="#D3D1FF"/>
+</svg>
