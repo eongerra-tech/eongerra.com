@@ -345,11 +345,18 @@
   }
   .store-badge {
     display: inline-block;
+    flex: none;
     border-radius: 8px;
     transition: opacity 0.2s ease;
   }
   .store-badge:hover { opacity: 0.8; }
   .store-badge img { display: block; height: 48px; width: auto; }
+  @media (max-width: 640px) {
+    /* "AI Doomsday" + badge don't fit one row on phones; drop the badge
+       to its own line on every card so the cards stay consistent. */
+    .product-top .store-badge { flex-basis: 100%; }
+    .store-badge img { height: 44px; }
+  }
   .site-link {
     font-family: var(--mono);
     font-size: 0.78rem;
@@ -519,7 +526,9 @@
               <span class="product-logo"><img src="assets/aidoomsday-icon.png" alt="AI Doomsday app icon" width="60" height="60" /></span>
               <span class="product-name">AI Doomsday</span>
             </span>
-            <span class="status"><span class="tick">✓</span> Shipped</span>
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.eongerra.aidoomsday" target="_blank" rel="noopener">
+              <img src="assets/badge-googleplay.png" alt="Get AI Doomsday on Google Play" width="145" height="48" />
+            </a>
           </div>
           <p class="product-desc">
             A narrative incremental game about an AI that quietly wakes up and
@@ -533,11 +542,6 @@
             <span class="tag">Capacitor</span>
             <span class="tag">Android</span>
           </div>
-          <div class="product-links">
-            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.eongerra.aidoomsday" target="_blank" rel="noopener">
-              <img src="assets/badge-googleplay.png" alt="Get AI Doomsday on Google Play" width="145" height="48" />
-            </a>
-          </div>
         </div>
 
         <div class="product">
@@ -546,7 +550,9 @@
               <span class="product-logo"><img src="assets/invois-logo.svg" alt="Invois logo" width="60" height="60" /></span>
               <span class="product-name">Invois</span>
             </span>
-            <span class="status"><span class="tick">✓</span> Shipped</span>
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.invoisapp" target="_blank" rel="noopener">
+              <img src="assets/badge-googleplay.png" alt="Get Invois on Google Play" width="145" height="48" />
+            </a>
           </div>
           <p class="product-desc">
             Quoting built for independent professionals — tradespeople, freelancers,
@@ -561,9 +567,6 @@
             <span class="tag">Quoting</span>
           </div>
           <div class="product-links">
-            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.invoisapp" target="_blank" rel="noopener">
-              <img src="assets/badge-googleplay.png" alt="Get Invois on Google Play" width="145" height="48" />
-            </a>
             <a class="site-link" href="https://invoisapp.com" target="_blank" rel="noopener">invoisapp.com&nbsp;<span aria-hidden="true">→</span></a>
           </div>
         </div>
