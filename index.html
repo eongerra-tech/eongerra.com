@@ -336,6 +336,31 @@
     border-radius: 4px;
     padding: 0.25rem 0.55rem;
   }
+  .product-links {
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .store-badge {
+    display: inline-block;
+    border-radius: 8px;
+    transition: opacity 0.2s ease;
+  }
+  .store-badge:hover { opacity: 0.8; }
+  .store-badge img { display: block; height: 48px; width: auto; }
+  .site-link {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink);
+    border-bottom: 1px solid var(--line);
+    padding-block: 0.35rem;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .site-link:hover { color: var(--signal); border-color: var(--signal); }
 
   /* ==================================================
      CONTACT
@@ -443,8 +468,7 @@
       <div class="hero-rule" aria-hidden="true"></div>
       <div class="hero-meta reveal">
         <span><span class="mono">Building</span> <b>WEB · MOBILE · AI</b></span>
-        <span><span class="mono">Shipped</span> <b>1 APP</b></span>
-        <span><span class="mono">Coming soon</span> <b>1 APP</b></span>
+        <span><span class="mono">Shipped</span> <b>2 APPS</b></span>
         <span><span class="mono">Contact</span> <b>SUPPORT@EONGERRA.COM</b></span>
       </div>
     </div>
@@ -509,6 +533,11 @@
             <span class="tag">Capacitor</span>
             <span class="tag">Android</span>
           </div>
+          <div class="product-links">
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.eongerra.aidoomsday" target="_blank" rel="noopener">
+              <img src="assets/badge-googleplay.png" alt="Get AI Doomsday on Google Play" width="145" height="48" />
+            </a>
+          </div>
         </div>
 
         <div class="product">
@@ -517,7 +546,7 @@
               <span class="product-logo"><img src="assets/invois-logo.svg" alt="Invois logo" width="60" height="60" /></span>
               <span class="product-name">Invois</span>
             </span>
-            <span class="status live"><span class="dot" aria-hidden="true"></span> Coming soon</span>
+            <span class="status"><span class="tick">✓</span> Shipped</span>
           </div>
           <p class="product-desc">
             Quoting built for independent professionals — tradespeople, freelancers,
@@ -530,6 +559,12 @@
             <span class="tag">SaaS</span>
             <span class="tag">AI</span>
             <span class="tag">Quoting</span>
+          </div>
+          <div class="product-links">
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.invoisapp" target="_blank" rel="noopener">
+              <img src="assets/badge-googleplay.png" alt="Get Invois on Google Play" width="145" height="48" />
+            </a>
+            <a class="site-link" href="https://invoisapp.com" target="_blank" rel="noopener">invoisapp.com&nbsp;<span aria-hidden="true">→</span></a>
           </div>
         </div>
 
